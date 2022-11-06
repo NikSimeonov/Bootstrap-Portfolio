@@ -1,4 +1,8 @@
-.card {
-    background-repeat: no;
-    background-size: cover;
+body {
+    background-color: #465362!important;
 }
+
+.navbar {
+    background-color: #011936!important;
+}
+

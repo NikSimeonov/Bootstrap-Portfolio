@@ -12,24 +12,24 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-toogler navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Welcome</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav navbar-brand">
             <li class="nav-item active">
-              <a class="nav-link" href="#">About me <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#about">About me</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">My Projects</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#projects">My Projects</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact me</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#skills">My Skills</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Contact">Contact me</a>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contact">Contact me</a>
             </li>
           </ul>
         </div>
@@ -37,21 +37,19 @@
 
 
       <div class="jumbotron">
-        <h1 class="display-4">Hello, world!</h1>
+        <h1 class="display-3" id="about">Hello, world!</h1>
         <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
         <hr class="my-4">
-        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-      </div>
+        
 
-      <section class="myProjects">
+      <section class="myProjects" id="projects">
         <div class="container">
             <div class="row">
               <div class="col-12 w-100 row justify-content-center">
                 <div class="card w-100 text-center" style="width: 18rem;">
                     <img src="./assets/images/02-run-buddy.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h2 class="card-title">Card title</h2>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
@@ -61,7 +59,7 @@
                 <div class="card w-100 text-center" style="width: 18rem;">
                     <img src="./assets/images/02-portfolio-1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h2 class="card-title">Card title</h2>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
@@ -71,7 +69,7 @@
                 <div class="card w-100 text-center" style="width: 18rem;">
                     <img src="./assets/images/02-portfolio-2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h2 class="card-title">Card title</h2>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
@@ -81,7 +79,7 @@
                 <div class="card w-100 text-center" style="width: 18rem;">
                     <img src="./assets/images/02-portfolio-3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h2 class="card-title">Card title</h2>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
@@ -91,7 +89,7 @@
                 <div class="card w-100 text-center" style="width: 18rem;">
                     <img src="./assets/images/02-portfolio-4.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
+                      <h2 class="card-title">Card title</h2>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
@@ -103,16 +101,11 @@
 
       <section class="mySkills">
 
-        <h2>Skills I am going to learn from the bootcamp.</h2>
+        <h3 id="skills">Skills I am going to learn from the bootcamp.</h3>
       </section>
 
-      <section class="contactMe">
-        <h2>Please contact me</h2>
-        <h3>About me</h3>
-      </section>
-
-      <footer id="Contact">
-
+      <footer id="contact">
+        <h4>Please contact me</h4>
       </footer>
 
 </body>
