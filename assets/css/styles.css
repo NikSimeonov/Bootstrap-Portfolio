@@ -1,8 +1,64 @@
+
 body {
+    background-color: #465362;
+    color: white;
+}
+
+.jumbotron {
+    height: 100vh!important;
     background-color: #465362!important;
 }
+
+
 
 .navbar {
     background-color: #011936!important;
 }
 
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+    flex-direction: row;
+    background-color: #011936;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.footer-h4 {
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+
+footer p {
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+footer div {
+    text-align: center;
+    color:white;
+    padding-right: 10px;
+}
+
+.icon-contact-link {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 16px;
+}
+
+i {
+    color:white;
+    padding: 10px;
+    margin-bottom: 0;
+}
