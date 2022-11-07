@@ -4,16 +4,35 @@ body {
     color: white;
 }
 
+
+.navbar {
+    background-color: #011936!important;
+}
+
 .jumbotron {
     height: 100vh!important;
     background-color: #465362!important;
 }
 
-
-
-.navbar {
-    background-color: #011936!important;
+.jumbotron .myPhoto {
+    border-radius: 50%;
+    padding: 20px;
 }
+
+.jumbotron h1 {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.container img {
+    overflow: hidden;
+    object-fit: contain;
+}
+
 
 footer {
     display: flex;
@@ -59,6 +78,6 @@ footer div {
 
 i {
     color:white;
-    padding: 10px;
+    padding: 5px;
     margin-bottom: 0;
 }
