@@ -4,10 +4,12 @@ body {
     color: white;
 }
 
+/* Navigation bar*/
 
 .navbar {
     background-color: #011936!important;
 }
+
 
 .jumbotron {
     height: 100vh!important;
@@ -22,6 +24,16 @@ body {
 .jumbotron h1 {
     padding: 20px;
 }
+
+.nav-link:hover {
+    background: #011936;
+    text-decoration: underlinele;
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+/* GRID Work Section */
+
 
 h2 {
     text-align: center;
@@ -58,6 +70,17 @@ h2 {
     transform: scale(2);
 }
 
+.btn {
+    transition: box-shadow 1s;
+}
+
+.btn:hover {
+    box-shadow: 0 2px 15px silver!important;
+}
+
+/* Skills Section */
+
+
 .my-skills {
     margin-top: 30px;
 }
@@ -76,6 +99,8 @@ h2 {
 .skills-to-learn {
     list-style-type: none;
 }
+
+/* Footer */
 
 footer {
     display: flex;
@@ -123,4 +148,11 @@ i {
     color:white;
     padding: 5px;
     margin-bottom: 0;
+}
+
+footer i:hover {
+    background: #011936;
+    text-decoration: underlinele;
+    transform: scale(1.1);
+    transition: all 1s;
 }
