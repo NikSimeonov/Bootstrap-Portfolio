@@ -8,21 +8,31 @@ body {
 
 .navbar {
     background-color: #011936!important;
+    height: 70px!important;
+}
+
+.welcome {
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 20px;
 }
 
 
 .jumbotron {
+    margin-top: 30px;
     height: 100vh!important;
     background-color: #465362!important;
 }
 
 .jumbotron .myPhoto {
-    border-radius: 50%;
-    padding: 20px;
+    border-radius: 60%;
+    margin-top: 15px;
+    margin-right: 25px;
 }
 
 .jumbotron h1 {
     padding: 20px;
+    margin-top: 15px;
 }
 
 .nav-link:hover {
@@ -41,7 +51,7 @@ h2 {
 }
 
 .cardContainer {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 .card {
