@@ -58,6 +58,24 @@ h2 {
     transform: scale(2);
 }
 
+.my-skills {
+    margin-top: 30px;
+}
+
+.my-skills h3 { 
+    text-align: center;
+}
+
+
+.skills-to-learn li {
+    margin-top: 15px;
+    width: 100%;
+    text-align: center;
+}
+
+.skills-to-learn {
+    list-style-type: none;
+}
 
 footer {
     display: flex;
